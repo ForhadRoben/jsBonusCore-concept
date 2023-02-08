@@ -4,8 +4,8 @@ const nayok = {
     address: 'movie cinema',
     isSingle: true,
     friends: ['Apu', 'Raaz', 'Salman', 'aamir'],
-    movies: [{name: 'no. 1', year: 2015}, {name: 'king khan', year: 2018}],
-    act: function(){
+    movies: [{ name: 'no. 1', year: 2015 }, { name: 'king khan', year: 2018 }],
+    act: function () {
         console.log('acting like Sakib khan');
     },
     car: {
@@ -19,9 +19,9 @@ const nayok = {
         }
     }
 }
-
-// console.log(student.car);
-console.log(nayok.act);
-nayok.act();
+console.log(nayok.movies[0].name);
+// console.log(nayok.car.manufacturer.name);
+// console.log(nayok.act);
+// nayok.act();
 
 
